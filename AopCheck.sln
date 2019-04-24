@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Server", "Server", "{8F1EB8AB-2101-489E-A027-9731C3FC53FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL", "BLL\BLL.csproj", "{4EFF17E9-CFE2-4903-B4B5-96DA8CE887DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AopConsoleApp", "AopConsoleApp\AopConsoleApp.csproj", "{A3C3C9BF-DE4E-4986-91B1-494A626E23CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EFF17E9-CFE2-4903-B4B5-96DA8CE887DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EFF17E9-CFE2-4903-B4B5-96DA8CE887DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EFF17E9-CFE2-4903-B4B5-96DA8CE887DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EFF17E9-CFE2-4903-B4B5-96DA8CE887DE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3C3C9BF-DE4E-4986-91B1-494A626E23CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3C3C9BF-DE4E-4986-91B1-494A626E23CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3C3C9BF-DE4E-4986-91B1-494A626E23CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3C3C9BF-DE4E-4986-91B1-494A626E23CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EFF17E9-CFE2-4903-B4B5-96DA8CE887DE} = {8F1EB8AB-2101-489E-A027-9731C3FC53FD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C7697274-2D5B-4D89-8569-287ECCA419BA}
+	EndGlobalSection
+EndGlobal
